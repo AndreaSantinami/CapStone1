@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, Form, Button, Alert } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import GoogleLoginButton from "../components/GoogleLoginButton";
 
 const Register = () => {
   const navigate = useNavigate();
@@ -111,9 +112,11 @@ const Register = () => {
         <Button variant="primary" type="submit">
           Registrati
         </Button>
+        <GoogleLoginButton />
       </Form>
     </Container>
   );
+  
 };
 
 export default Register;
