@@ -1,0 +1,27 @@
+# Ignora i file di ambiente
+.env
+
+# Ignora node_modules
+node_modules/
+
+# Ignora log file
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignora cartelle temporanee
+dist/
+build/
+tmp/
+temp/
+
+# Ignora file di sistema
+.DS_Store
+Thumbs.db
+
+# Ignora backup dell'editor
+*.swp
+*.swo
+
+# Visual Studio Code folder settings
+.vscode/
